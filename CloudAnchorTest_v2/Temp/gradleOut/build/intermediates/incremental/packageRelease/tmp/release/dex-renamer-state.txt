@@ -1,0 +1,4 @@
+#Wed May 22 12:58:06 CEST 2019
+base.0=/Users/Sandbom/Documents/AVIproject/AR_colab_project/CloudAnchorTest_v2/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

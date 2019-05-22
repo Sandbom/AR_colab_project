@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{1506327B-3A2F-CAC2-4EAF-E4D2AAA7E1FA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleARCore/Examples/CloudAnchors/Scripts/LocalPlayerController.cs">
+    <Files>
+      <File FileName="Assets/GoogleARCore/Examples/ObjectManipulation/Scripts/ManipulationSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets/GoogleARCore/Examples/ObjectManipulation/Scripts/AndyPlacementManipulator.cs" Line="98" Column="21" />
+      <File FileName="Assets/GoogleARCore/Examples/CloudAnchors/Scripts/CloudAnchorsExampleController.cs" Line="337" Column="13" />
+      <File FileName="Assets/GoogleARCore/Examples/CloudAnchors/Scripts/LocalPlayerController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CloudAnchorTest_v2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GoogleARCore" expanded="True">
+                <Node name="Examples" expanded="True">
+                  <Node name="CloudAnchors" expanded="True">
+                    <Node name="Scripts" expanded="True">
+                      <Node name="LocalPlayerController.cs" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="ObjectManipulation" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

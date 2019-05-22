@@ -22,6 +22,7 @@ namespace GoogleARCore.Examples.CloudAnchors
 {
     using UnityEngine;
     using UnityEngine.Networking;
+    using GoogleARCore;
 
     /// <summary>
     /// Local player controller. Handles the spawning of the networked Game Objects.
@@ -39,6 +40,8 @@ namespace GoogleARCore.Examples.CloudAnchors
         /// The Anchor model that will represent the anchor in the scene.
         /// </summary>
         public GameObject AnchorPrefab;
+
+        public GameObject ManipulatorPrefab;
 
         /// <summary>
         /// The Unity OnStartLocalPlayer() method.
@@ -63,8 +66,18 @@ namespace GoogleARCore.Examples.CloudAnchors
             // Instantiate Anchor model at the hit pose.
             var anchorObject = Instantiate(AnchorPrefab, position, rotation);
 
+            // Instantiate manipulator.
+            var manipulator =
+                Instantiate(ManipulatorPrefab, position, rotation);
+
+            // Make Andy model a child of the manipulator.
+            anchorObject.transform.parent = manipulator.transform;
+
             // Anchor must be hosted in the device.
             anchorObject.GetComponent<AnchorController>().HostLastPlacedAnchor(anchor);
+
+            // Make manipulator a child of the anchor.
+            manipulator.transform.parent = anchor.transform;
 
             // Host can spawn directly without using a Command because the server is running in this
             // instance.
